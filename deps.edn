@@ -1,0 +1,8 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        quil/quil {:mvn/version "4.3.1563"}
+        speclj/speclj {:mvn/version "3.4.5"}}
+ :aliases {:spec  {:main-opts ["-m" "speclj.main" "-c"]
+                   :extra-deps  {speclj/speclj {:mvn/version "3.4.5"}}
+                   :extra-paths ["spec"]}
+	         :bugs {:main-opts [-m bugs]}}}
