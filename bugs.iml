@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="BuildSystem">
+    <option name="buildSystemId" value="CLOJURE_DEPS" />
+    <option name="displayName" value="bugs" />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Deps: org.clojure/clojure:1.11.1" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/batik-dom:1.14" level="project" />
+    <orderEntry type="library" name="Deps: org.clojure/tools.analyzer:0.6.9" level="project" />
+    <orderEntry type="library" name="Deps: org.clojure/core.specs.alpha:0.2.62" level="project" />
+    <orderEntry type="library" name="Deps: org.clojure/spec.alpha:0.3.218" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/batik-xml:1.14" level="project" />
+    <orderEntry type="library" name="Deps: xml-apis/xml-apis-ext:1.3.04" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/batik-svggen:1.14" level="project" />
+    <orderEntry type="library" name="Deps: org.clojure/tools.analyzer.jvm:0.7.0" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/batik-css:1.14" level="project" />
+    <orderEntry type="library" name="Deps: org.bouncycastle/bcprov-jdk14:1.38" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/xmlgraphics-commons:2.6" level="project" />
+    <orderEntry type="library" name="Deps: mmargs:1.2.0" level="project" />
+    <orderEntry type="library" name="Deps: bouncycastle/bcprov-jdk14:138" level="project" />
+    <orderEntry type="library" name="Deps: commons-io:1.3.1" level="project" />
+    <orderEntry type="library" name="Deps: hiphip-aot:0.1.2" level="project" />
+    <orderEntry type="library" name="Deps: cljsjs/p5:1.7.0-0" level="project" />
+    <orderEntry type="library" name="Deps: org.bouncycastle/bcmail-jdk14:1.38" level="project" />
+    <orderEntry type="library" name="Deps: speclj:3.4.5" level="project" />
+    <orderEntry type="library" name="Deps: trptcolin/versioneer:0.1.1" level="project" />
+    <orderEntry type="library" name="Deps: com.googlecode.soundlibs/tritonus-share:0.3.7.4" level="project" />
+    <orderEntry type="library" name="Deps: xalan:2.7.2" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/batik-constants:1.14" level="project" />
+    <orderEntry type="library" name="Deps: primitive-math:0.1.6" level="project" />
+    <orderEntry type="library" name="Deps: quil/processing-dxf:4.2.3" level="project" />
+    <orderEntry type="library" name="Deps: commons-logging:1.0.4" level="project" />
+    <orderEntry type="library" name="Deps: quil/processing-core:4.2.3" level="project" />
+    <orderEntry type="library" name="Deps: com.lowagie/itext:2.1.7" level="project" />
+    <orderEntry type="library" name="Deps: fresh:1.1.2" level="project" />
+    <orderEntry type="library" name="Deps: com.googlecode.soundlibs/mp3spi:1.9.5.4" level="project" />
+    <orderEntry type="library" name="Deps: xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" name="Deps: quil/processing-svg:4.2.3" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/batik-shared-resources:1.14" level="project" />
+    <orderEntry type="library" name="Deps: bouncycastle/bcmail-jdk14:138" level="project" />
+    <orderEntry type="library" name="Deps: junit:3.8.2" level="project" />
+    <orderEntry type="library" name="Deps: com.googlecode.soundlibs/jlayer:1.0.1.4" level="project" />
+    <orderEntry type="library" name="Deps: org.clojure/tools.reader:1.0.0-beta4" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/batik-awt-util:1.14" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/batik-util:1.14" level="project" />
+    <orderEntry type="library" name="Deps: quil/processing-pdf:4.2.3" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/batik-i18n:1.14" level="project" />
+    <orderEntry type="library" name="Deps: org.bouncycastle/bctsp-jdk14:1.38" level="project" />
+    <orderEntry type="library" name="Deps: org.clojure/core.memoize:0.5.9" level="project" />
+    <orderEntry type="library" name="Deps: org.clojure/data.priority-map:0.0.7" level="project" />
+    <orderEntry type="library" name="Deps: org.apache.xmlgraphics/batik-ext:1.14" level="project" />
+    <orderEntry type="library" name="Deps: elit/dynne:0.4.3" level="project" />
+    <orderEntry type="library" name="Deps: quil:4.3.1563" level="project" />
+    <orderEntry type="library" name="Deps: org.clojure/core.cache:0.6.5" level="project" />
+    <orderEntry type="library" name="Deps: org.ow2.asm/asm-all:4.2" level="project" />
+    <orderEntry type="library" name="Deps: org.clojure/core.async:0.4.474" level="project" />
+    <orderEntry type="library" name="Deps: xalan/serializer:2.7.2" level="project" />
+  </component>
+</module>

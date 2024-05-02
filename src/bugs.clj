@@ -4,8 +4,6 @@
             [quil.middleware :as m]
             [world]))
 
-(def screen-size [1000 1000])
-(def screen-origin [0 500])
 (def frame-rate 30)
 (def frame-ms (/ 1000 frame-rate))
 (def max-frame-ms (* 2 frame-ms))
@@ -13,12 +11,13 @@
 (defn setup []
   (q/frame-rate frame-rate)
   (q/color-mode :rgb)
-  (assoc (world/make-state)
+  (world/setup {})
+  (assoc (world/make-world)
     ::last-update-time (System/currentTimeMillis)
     ::mouse-state :mouse-up))
 
 (defn mouse-clicked [world]
-  (let [[ox oy] screen-origin
+  (let [[ox oy] world/screen-origin
         mx (- (q/mouse-x) ox)
         my (- (q/mouse-y) oy)]
     (world/mouse-clicked [mx my] world)))
@@ -49,17 +48,16 @@
 (defn draw-state [world]
   (q/background 240)
   (q/with-translation
-    screen-origin
+    world/screen-origin
     (world/draw-state world)))
 
-(q/defsketch bugs
-             :title "Bugs!"
-             :size screen-size
-             :setup setup
-             :update update-state
-             :draw draw-state
-             :features [:keep-on-top]
-             :middleware [m/fun-mode])
-
-(defn -main [& args]
-  (println "bugs has begun."))
+(defn -main [& _args]
+  (println "bugs has begun.")
+  (q/defsketch bugs
+               :title "Bugs!"
+               :size world/screen-size
+               :setup setup
+               :update update-state
+               :draw draw-state
+               :features [:keep-on-top]
+               :middleware [m/fun-mode]))
